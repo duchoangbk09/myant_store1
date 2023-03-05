@@ -1,4 +1,95 @@
 {
     "realtimeDB" : {"requestType": "EAT HERE", "menuId": "submenu-1", "status": "inprogress", "receiptId": "bf06ba2e-a42a-4603-ae00-2871c055bfc0", "id": "f41e4751-007c-410a-be34-c8e4d9c0b050", "fromPlatform": "kiosk"},
-    "printerCheck" : {"action":"printer_info","data":{}}
+    "printerCheck" : {"action":"printer_info","data":{}},
+    "getOrderList" : {
+        "success": true,
+        "data": [
+            {
+                "paymentStatus": "paid",
+                "fromPlatform": "kiosk",
+                "paidByOther": "0",
+                "timeReady": "0",
+                "menuId": "submenu-1",
+                "requestType": "EAT HERE",
+                "note": "",
+                "plannedAt": null,
+                "deviceId": "b22bd8b2-c91f-4b9d-96c3-ea4b711c8674",
+                "fiatCurrency": "EUR",
+                "tokenId": "350554ec-0a79-457b-aa49-b2cc86d5d957",
+                "details": {
+                    "successUrl": "https://kiosk-test.web.app/order-success",
+                    "cancelUrl": "https://kiosk-test.web.app/order-failed"
+                },
+                "payAsCheckout": true,
+                "updatedAt": "2023-03-03T14:59:29.913Z",
+                "id": "f41e4751-007c-410a-be34-c8e4d9c0b050",
+                "tableNumber": "",
+                "paidByToken": "0",
+                "checkRetry": 0,
+                "customerId": "",
+                "restaurantId": "ad9da1bf-ed6a-4dab-8951-170e83a7bc9e",
+                "paidByFiat": "22.5",
+                "status": "inprogress",
+                "createdAt": "2023-03-03T14:59:23.783Z",
+                "customer": {
+                    "displayName": "duc kiosk",
+                    "name": "",
+                    "phoneNumber": "",
+                    "displayNameOnScreen": "#21"
+                },
+                "totalAmount": "22.5",
+                "receiptId": "bf06ba2e-a42a-4603-ae00-2871c055bfc0",
+                "paymentMethods": [
+                    "sumup"
+                ],
+                "rewarded": true,
+                "orderId": "21",
+                "rewardingToken": "2.25",
+                "amount": "0"
+            },
+            {
+                "tokenId": "350554ec-0a79-457b-aa49-b2cc86d5d957",
+                "plannedAt": null,
+                "rewarded": true,
+                "totalAmount": "4",
+                "deviceId": "ea842220-29af-49af-8255-133def7f916f",
+                "paymentMethods": [
+                    "sumup"
+                ],
+                "paidByToken": "0",
+                "timeReady": "0",
+                "orderId": "21",
+                "checkRetry": 0,
+                "details": {
+                    "cancelUrl": "https://kiosk-test.web.app/order-failed",
+                    "successUrl": "https://kiosk-test.web.app/order-success"
+                },
+                "paymentStatus": "paid",
+                "note": "",
+                "updatedAt": "2023-03-02T08:15:41.684Z",
+                "customerId": "",
+                "tableNumber": "",
+                "customer": {
+                    "displayName": "Kiosk office ",
+                    "name": "Emil",
+                    "displayNameOnScreen": "#21 Emil",
+                    "phoneNumber": ""
+                },
+                "menuId": "kiosk-test-menu",
+                "fromPlatform": "kiosk",
+                "paidByOther": "0",
+                "fiatCurrency": "EUR",
+                "createdAt": "2023-03-02T08:15:28.475Z",
+                "requestType": "EAT HERE",
+                "payAsCheckout": true,
+                "id": "3cc38a17-29b5-4f65-927b-b950c6098ba8",
+                "paidByFiat": "4",
+                "status": "inprogress",
+                "restaurantId": "ad9da1bf-ed6a-4dab-8951-170e83a7bc9e",
+                "rewardingToken": "0.4",
+                "receiptId": "cdaf0c74-a0a7-485f-a17f-b337514c6d73",
+                "amount": "0"
+            }
+        ]
+    }
 }
