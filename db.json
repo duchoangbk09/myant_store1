@@ -1,0 +1,7 @@
+{
+    "initPayment" : {"action":"init_payment","data":{}},
+    "paymentUpdateToken" : {"action":"payment_token_update","data":{}},
+    "paymentLoginNormal" : {"action":"payment_login_normal","data":{}},
+    "paymentSetting" : {"action":"payment_setting","data":{}},
+    "printerCheck" : {"action":"printer_info","data":{}}
+}
