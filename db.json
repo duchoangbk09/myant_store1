@@ -1,7 +1,4 @@
 {
-    "initPayment" : {"action":"init_payment","data":{}},
-    "paymentUpdateToken" : {"action":"payment_token_update","data":{}},
-    "paymentLoginNormal" : {"action":"payment_login_normal","data":{}},
-    "paymentSetting" : {"action":"payment_setting","data":{}},
+    "realtimeDB" : {"requestType": "EAT HERE", "menuId": "submenu-1", "status": "inprogress", "receiptId": "bf06ba2e-a42a-4603-ae00-2871c055bfc0", "id": "f41e4751-007c-410a-be34-c8e4d9c0b050", "fromPlatform": "kiosk"},
     "printerCheck" : {"action":"printer_info","data":{}}
 }
