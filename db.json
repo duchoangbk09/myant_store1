@@ -1,4 +1,144 @@
 {
+    "receiptDetail": {
+        "success": true,
+        "data": [
+            {
+                "updatedAt": "2023-03-05T09:28:02.551Z",
+                "paidAt": "2023-03-03T17:17:10.000Z",
+                "paymentStatus": "paid",
+                "id": "db75094b-162c-4943-b048-665d400046f7",
+                "customerId": "",
+                "friendlyCounter": 2,
+                "transactionId": "acd1a789-ee4e-4a66-a44c-84d649d3afd8",
+                "amount": "22.50",
+                "payAsCheckout": true,
+                "friendlyId": "S0-20230303-2",
+                "restaurantId": "ad9da1bf-ed6a-4dab-8951-170e83a7bc9e",
+                "tokenId": "350554ec-0a79-457b-aa49-b2cc86d5d957",
+                "createdAt": "2023-03-03T15:17:10.589Z",
+                "staff": "",
+                "token": {
+                    "isPlaceholder": true,
+                    "updatedAt": "2023-03-03T15:17:10.084Z",
+                    "tokenOffers": {},
+                    "vat": {
+                        "EUR": 0
+                    },
+                    "image": "https://i.imgur.com/oBjTpnS.png",
+                    "name": "S placeholder token",
+                    "id": "350554ec-0a79-457b-aa49-b2cc86d5d957",
+                    "symbol": "S",
+                    "merchantIdMapping": {
+                        "ad9da1bf-ed6a-4dab-8951-170e83a7bc9e": 0,
+                        "09766ad7-1682-4480-bc90-aeab47b41dde": 0
+                    },
+                    "createdAt": "2023-01-29T16:12:54.155Z",
+                    "logo": "https://i.imgur.com/oBjTpnS.png"
+                },
+                "order": {
+                    "readyAt": {
+                        "_seconds": 1678007863,
+                        "_nanoseconds": 296000000
+                    },
+                    "id": "acd1a789-ee4e-4a66-a44c-84d649d3afd8",
+                    "totalAmount": "22.5",
+                    "tokenId": "350554ec-0a79-457b-aa49-b2cc86d5d957",
+                    "note": "",
+                    "paidByOther": "0",
+                    "details": {
+                        "successUrl": "https://kiosk-test.web.app/order-success",
+                        "cancelUrl": "https://kiosk-test.web.app/order-failed"
+                    },
+                    "requestType": "EAT HERE",
+                    "customer": {
+                        "displayNameOnScreen": "#22",
+                        "name": "",
+                        "displayName": "duc kiosk",
+                        "phoneNumber": ""
+                    },
+                    "paidByToken": "0",
+                    "plannedAt": null,
+                    "paymentMethods": [
+                        "sumup"
+                    ],
+                    "fromPlatform": "kiosk",
+                    "rewarded": true,
+                    "paymentStatus": "paid",
+                    "rewardingToken": "2.25",
+                      "fiatCurrency": "EUR",
+                    "deviceId": "b22bd8b2-c91f-4b9d-96c3-ea4b711c8674",
+                    "tableNumber": "",
+                    "checkRetry": 0,
+                    "restaurantId": "ad9da1bf-ed6a-4dab-8951-170e83a7bc9e",
+                    "orderId": "22",
+                    "menuId": "submenu-1",
+                    "status": "archived",
+                    "customerId": "",
+                    "timeReady": "0",
+                    "paidByFiat": "22.5",
+                    "receiptId": "db75094b-162c-4943-b048-665d400046f7",
+                    "payAsCheckout": true,
+                    "createdAt": "2023-03-03T15:17:06.630Z",
+                    "updatedAt": "2023-03-05T09:28:00.933Z",
+                    "amount": "0"
+                },
+                "rows": [
+                    [
+                        "1 x POLLO (L,G)",
+                        "22.50"
+                    ],
+                    [
+                        "",
+                        ""
+                    ],
+                    [
+                        "- Normal",
+                        ""
+                    ],
+                    [
+                        "Yhteensä",
+                        "22.50"
+                    ],
+                    [
+                        "Maksettu yhteensä",
+                        "22.50"
+                    ],
+                    [
+                        "ALV 14%",
+                        "3.15"
+                    ],
+                    [
+                        "Tilaustyyppi",
+                        "EAT HERE"
+                    ],
+                    [
+                        "",
+                        ""
+                    ],
+                    [
+                        "Il Centro / Scandic Helsinki Hub TEST",
+                        ""
+                    ],
+                    [
+                        "1234567-8",
+                        ""
+                    ],
+                    [
+                        "Mynt Street 42",
+                        ""
+                    ],
+                    [
+                        "00120 Helsinki",
+                        ""
+                    ],
+                    [
+                        "+35892714232",
+                        ""
+                    ]
+                ]
+            }
+        ]
+    },
     "realtimeDB" : {"requestType": "EAT HERE", "menuId": "submenu-1", "status": "inprogress", "receiptId": "bf06ba2e-a42a-4603-ae00-2871c055bfc0", "id": "f41e4751-007c-410a-be34-c8e4d9c0b050", "fromPlatform": "kiosk"},
     "printerCheck" : {"action":"printer_info","data":{}},
     "getOrderList" : {
